@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的简单博客</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .article-list {
+            margin-top: 30px;
+        }
+        .article-item {
+            background-color: #f8f9fa;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+            transition: all 0.3s ease;
+        }
+        .article-item:hover {
+            background-color: #e8f4fc;
+            transform: translateX(5px);
+        }
+        .article-link {
+            text-decoration: none;
+            color: #2c3e50;
+            font-size: 18px;
+            font-weight: 500;
+            display: block;
+        }
+        .article-link:hover {
+            color: #3498db;
+        }
+        .article-meta {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+        .new-tab-indicator {
+            font-size: 12px;
+            color: #3498db;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>我的简单博客</h1>
+        <p>欢迎来到我的博客！点击下面的文章标题在新页面中阅读完整内容。</p>
+        
+        <div class="article-list">
+            <div class="article-item">
+                <a href="blog-post.html" target="_blank" class="article-link">
+                    GitHub Pages入门指南
+                    <span class="new-tab-indicator">(新标签页打开)</span>
+                </a>
+                <div class="article-meta">发布于 2023年10月15日 • 5分钟阅读</div>
+            </div>
+            
+            <div class="article-item">
+                <a href="blog-post.html" target="_blank" class="article-link">
+                    HTML和CSS基础教程
+                    <span class="new-tab-indicator">(新标签页打开)</span>
+                </a>
+                <div class="article-meta">发布于 2023年10月10日 • 8分钟阅读</div>
+            </div>
+            
+            <div class="article-item">
+                <a href="blog-post.html" target="_blank" class="article-link">
+                    如何创建响应式网站
+                    <span class="new-tab-indicator">(新标签页打开)</span>
+                </a>
+                <div class="article-meta">发布于 2023年10月5日 • 6分钟阅读</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
